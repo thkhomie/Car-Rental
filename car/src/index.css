@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", "sans-serif";
+  }
+}
+
+@layer components {
+  .menu-item {
+    @apply text-sm font-medium text-darkBlue relative cursor-pointer after:content-[''] after:w-full after:h-[3px] after:bg-lightBlue after:absolute after:left-0 after:-bottom-2 after:rounded after:-translate-x-11 after:opacity-0 after:transition-all after:hover:translate-x-0 after:hover:opacity-100;
+  }
+  .footer-menu-item {
+    @apply text-sm font-semibold text-heading relative cursor-pointer after:content-[''] after:w-full after:h-[3px] after:bg-[#A2D2FF] after:absolute after:left-0 after:-bottom-2 after:rounded after:-translate-x-11 after:opacity-0 after:transition-all after:hover:translate-x-0 after:hover:opacity-100;
+  }
+}

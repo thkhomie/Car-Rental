@@ -5,7 +5,7 @@ export default function OurCar(){
     return(
         <section id="our-car" className=" p-20">
             <h2 className="text-heading font-bold text-2xl md:text-4xl text-center">Our Car</h2>
-
+<p className="text-2xl md:text-3xl text-center py-6">Our top best cars from our customers.</p>
             <div className="max-w-screen-xl flex justify-around mx-auto flex-wrap p-6">
                 {
                     OUR_CAR.map((cars) => (

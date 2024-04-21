@@ -16,9 +16,6 @@ export default {
        overlayBg: "rgba(0,0,0,0.3)"
       }
     },
-    backgroundImage:{
-      'parallax' : 'url("./src/assets/Poster.png")'
-    }
   },
   plugins: [],
 }

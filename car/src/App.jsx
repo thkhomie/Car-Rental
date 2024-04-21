@@ -1,5 +1,4 @@
 import './App.css'
-import Banner from './Parallax/Banner'
 import Home from './component/Home'
 import NavBar from './component/NavBar'
 import Stats from './component/Stats'
@@ -15,7 +14,6 @@ function App() {
       <NavBar />
       <Home />
       <Stats />
-      <Banner />
       <Why />
       <OurCar />
       <Accordion />

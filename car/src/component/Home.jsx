@@ -66,7 +66,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center p-3 absolute top-40 md:top-96 md:right-44 lg:top-60 right-[5px] lg:right-32">
                     <form onSubmit={handleSubmit} className="md:w-full bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-                        <div className="mb-4">
+                        <div className="mb-2">
                             <label className="block text-gray-700 text-sm font-bold mb-2">
                                 Rental Option:
                             </label>

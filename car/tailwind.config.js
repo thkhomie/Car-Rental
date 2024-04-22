@@ -14,8 +14,12 @@ export default {
        darkBlue: "#1B4282",
        lightBlue: "#BDD6FF",
        overlayBg: "rgba(0,0,0,0.3)"
-      }
+      },
+      backgroundImage: {
+      'parallax' : 'url("./src/assets/Poster.png")'
+    }
     },
+    
   },
   plugins: [],
 }

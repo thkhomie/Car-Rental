@@ -2,6 +2,7 @@ import './App.css'
 import Home from './component/Home'
 import NavBar from './component/NavBar'
 import Stats from './component/Stats'
+import Banner from './Parallax/Banner'
 import Why from './component/Why'
 import Accordion from './component/Accordion'
 import SocialMedia from './component/SocialMedia'
@@ -14,6 +15,7 @@ function App() {
       <NavBar />
       <Home />
       <Stats />
+      <Banner />
       <Why />
       <OurCar />
       <Accordion />
